@@ -1,0 +1,40 @@
+body{
+    background-color: #696969;
+}
+
+.container {
+    padding: 25px 150px;
+    
+}
+.search-bar {
+    display: block;
+    height: 25px;
+    font-size: 20px;
+    width: 40%;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.country-name {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+.country-info,
+.country-name,
+.country-list {
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black
+}
+
+.description,
+.country-list {
+    font-weight: normal;
+    font-size: 24px;
+}
+.flag-box {
+    margin: auto 0;
+}
